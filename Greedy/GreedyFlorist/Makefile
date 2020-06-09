@@ -1,0 +1,1 @@
+all: ; javac GreedyFlorist.java

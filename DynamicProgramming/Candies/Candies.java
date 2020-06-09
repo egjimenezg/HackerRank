@@ -21,6 +21,7 @@ public class Candies {
       } else {
         candies[index] = 1;
         candiesNumber += 1;
+
         if(A[index-1] > A[index] && candies[index] == candies[index-1]){
           candies[index-1] = candies[index]+1;
           candiesNumber += 1;

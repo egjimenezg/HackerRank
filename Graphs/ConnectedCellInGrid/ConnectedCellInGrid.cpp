@@ -54,8 +54,7 @@ int DFS(int** grid, stack<Point> graphStack, int n, int m){
 
     for(int i=-1;i<=1;i++){
       for(int j=-1;j<=1;j++){
-        if((point.x+i >= 0 && point.x+i < n) &&
-           (point.y+j >= 0 && point.y+j < m)){
+        if((point.x+i >= 0 && point.x+i < n) && (point.y+j >= 0 && point.y+j < m)){
           if(grid[point.x+i][point.y+j] == 1){
             Point neighbor = {.x = point.x+i, .y = point.y+j};
 
