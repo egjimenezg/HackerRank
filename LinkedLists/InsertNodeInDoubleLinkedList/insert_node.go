@@ -12,7 +12,7 @@
  */
 func sortedInsert(head *DoublyLinkedListNode, data int32) *DoublyLinkedListNode {
   if(head == nil){
-    head = &DoublyLinkedListNode{data : data, next: nil, prev: nil}
+    head = &DoublyLinkedListNode{data: data, next: nil, prev: nil}
   }
 
   var headIterator *DoublyLinkedListNode
